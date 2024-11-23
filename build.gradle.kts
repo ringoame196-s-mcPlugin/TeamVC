@@ -25,6 +25,7 @@ repositories {
     mavenCentral()
     maven(url = "https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
     maven(url = "https://oss.sonatype.org/content/groups/public/")
+    maven(url = "https://m2.dv8tion.net/releases")
 }
 
 val shadowImplementation: Configuration by configurations.creating
